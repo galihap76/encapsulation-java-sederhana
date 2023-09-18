@@ -50,7 +50,7 @@ class Main{
 		// Set nama, penyakit, umur
 		Obj.setNama("Galih Anggoro Prasetya.");
 		Obj.setPenyakit("Tidak Ada Penyakit.");
-		Obj.setUmur(18);
+		Obj.setUmur(19);
 		
 		// Get nama, penyakit, umur
 		System.out.println(Obj.getNama());
