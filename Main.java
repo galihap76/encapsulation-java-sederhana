@@ -28,11 +28,10 @@ class Pasien{
 	
 	// Getter umur
 	public int getUmur() {
-		System.out.print("Umur pasien : ");
 		return umur;
 	}
 	
-	// Setter umur
+	// Setter public void setUmur
 	public void setUmur(int newUmur) {
 		this.umur = newUmur;
 	}
@@ -49,8 +48,8 @@ class Main{
 		Pasien Obj = new Pasien();
 		
 		// Set nama, penyakit, umur
-		Obj.setNama("Nama pasien : galih anggoro prasetya.");
-		Obj.setPenyakit("Diagnosis penyakit : tidak ada penyakit.");
+		Obj.setNama("Galih Anggoro Prasetya.");
+		Obj.setPenyakit("Tidak Ada Penyakit.");
 		Obj.setUmur(18);
 		
 		// Get nama, penyakit, umur
