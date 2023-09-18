@@ -32,7 +32,7 @@ class Pasien{
 		return umur;
 	}
 	
-	// Setter public void setUmur
+	// Setter umur
 	public void setUmur(int newUmur) {
 		this.umur = newUmur;
 	}
